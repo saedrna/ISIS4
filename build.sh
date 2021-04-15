@@ -14,3 +14,5 @@ cmake -GNinja \
 
 cmake --build . --target install --config Release
 
+chmod +x $CONDA_PREFIX/scripts/isisVarInit.py
+# $CONDA_PREFIX/scripts/isisVarInit.py -d [change this]

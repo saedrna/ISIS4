@@ -203,7 +203,7 @@ else()
 endif()
 
 # Paths to required executables
-find_program(XALAN Xalan REQUIRED)
+find_program(XALAN Xalan)
 find_program(LATEX latex)
 find_program(DOXYGEN NAME doxygen PATH_SUFFIXES doxygen REQUIRED)
 find_program(UIC uic REQUIRED)
@@ -241,7 +241,7 @@ find_package(Boost 1.59.0 REQUIRED atomic
                                         serialization
                                         chrono
                                         math_c99
-                                        signals
+                                        # signals
                                         container
                                         math_c99f
                                         context
